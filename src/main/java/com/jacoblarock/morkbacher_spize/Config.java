@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.jacoblarock.morkbacher_spize;
 
 import java.util.List;
 import java.util.Set;

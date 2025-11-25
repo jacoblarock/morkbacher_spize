@@ -1,0 +1,13 @@
+{
+  "itemGroup.morkbacherspize": "Example Mod Tab",
+  "block.morkbacherspize.example_block": "Example Block",
+  "item.morkbacherspize.example_item": "Example Item",
+
+  "morkbacherspize.configuration.title": "Morkbacher Spize Configs",
+  "morkbacherspize.configuration.section.morkbacherspize.common.toml": "Morkbacher Spize Configs",
+  "morkbacherspize.configuration.section.morkbacherspize.common.toml.title": "Morkbacher Spize Configs",
+  "morkbacherspize.configuration.items": "Item List",
+  "morkbacherspize.configuration.logDirtBlock": "Log Dirt Block",
+  "morkbacherspize.configuration.magicNumberIntroduction": "Magic Number Text",
+  "morkbacherspize.configuration.magicNumber": "Magic Number"
+}
