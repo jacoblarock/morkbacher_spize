@@ -1,7 +1,7 @@
 {
   "ambientocclusion": false,
   "textures": {
-    "all": "minecraft:block/glass"
+    "all": "morkbacherspize:block/spize"
   },
   "elements": [
     {

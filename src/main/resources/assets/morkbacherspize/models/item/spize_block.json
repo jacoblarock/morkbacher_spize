@@ -1,3 +1,20 @@
 {
-  "parent": "morkbacherspize:block/spize_one"
+  "ambientocclusion": false,
+  "textures": {
+    "all": "morkbacherspize:block/spize"
+  },
+  "elements": [
+    {
+      "from": [6, 7, 6],
+      "to": [10, 14, 10],
+      "faces": {
+        "down":  { "texture": "#all", "cullface": "down" },
+        "up":    { "texture": "#all" },
+        "north": { "texture": "#all" },
+        "south": { "texture": "#all" },
+        "west":  { "texture": "#all" },
+        "east":  { "texture": "#all" }
+      }
+    }
+  ]
 }
