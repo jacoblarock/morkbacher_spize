@@ -21,3 +21,6 @@ gradle-app.setting
 .classpath
 .idea
 .vscode
+
+# minecraft run directory
+run/
