@@ -1,6 +1,7 @@
 package com.jacoblarock.morkbacher_spize;
 
 import com.jacoblarock.morkbacher_spize.block.SpizeBlock;
+import com.jacoblarock.morkbacher_spize.item.SpizeBlockItem;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -46,11 +47,11 @@ public class MorkbacherSpize {
     // Creates a new Block with the id "morkbacherspize:example_block", combining the namespace and path
     public static final DeferredBlock<SpizeBlock> SPIZE_BLOCK = BLOCKS.register("spize_block", SpizeBlock::new);
     // Creates a new BlockItem for the Spize Block, combining the namespace and path
-    public static final DeferredItem<BlockItem> SPIZE_BLOCK_ITEM = ITEMS.registerSimpleBlockItem("spize_block", SPIZE_BLOCK);
+    public static final DeferredItem<BlockItem> SPIZE_BLOCK_ITEM = ITEMS.register("spize_block", () -> new SpizeBlockItem(SPIZE_BLOCK.get(), new Item.Properties()));
 
     // Creates a new food item with the id "morkbacherspize:example_id", nutrition 1 and saturation 2
-    public static final DeferredItem<Item> EXAMPLE_ITEM = ITEMS.registerSimpleItem("example_item", new Item.Properties().food(new FoodProperties.Builder()
-            .alwaysEdible().nutrition(1).saturationModifier(2f).build()));
+    // public static final DeferredItem<Item> EXAMPLE_ITEM = ITEMS.registerSimpleItem("example_item", new Item.Properties().food(new FoodProperties.Builder()
+    //         .alwaysEdible().nutrition(1).saturationModifier(2f).build()));
 
     // Creates a creative tab with the id "morkbacherspize:morkbacher_spize_tab" for the example item, that is placed after the combat tab
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MORKBACHER_SPIZE_TAB = CREATIVE_MODE_TABS.register("morkbacher_spize_tab", () -> CreativeModeTab.builder()
@@ -59,7 +60,7 @@ public class MorkbacherSpize {
             .icon(() -> SPIZE_BLOCK_ITEM.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
                 output.accept(SPIZE_BLOCK_ITEM.get());
-                output.accept(EXAMPLE_ITEM.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
+                // output.accept(EXAMPLE_ITEM.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
             }).build());
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.

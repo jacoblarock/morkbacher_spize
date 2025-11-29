@@ -31,10 +31,22 @@ public class SpizeBlock extends Block implements SimpleWaterloggedBlock {
     );
     public static final BooleanProperty waterlogged = BlockStateProperties.WATERLOGGED;
 
-    protected static final VoxelShape oneShape = Block.box(6.0D, 0.0D, 6.0D, 10.0D, 6.0D, 10.0D);
-    protected static final VoxelShape twoShape = Shapes.or(Block.box(3.0D, 0.0D, 4.0D, 7.0D, 6.0D, 8.0D), Block.box(9.0D, 0.0D, 5.0D, 13.0D, 7.0D, 9.0D));
-    protected static final VoxelShape threeShape = Shapes.or(Block.box(3.0D, 0.0D, 3.0D, 7.0D, 6.0D, 7.0D), Block.box(9.0D, 0.0D, 2.0D, 13.0D, 7.0D, 6.0D), Block.box(4.0D, 0.0D, 9.0D, 8.0D, 7.0D, 13.0D));
-    protected static final VoxelShape fourShape = Shapes.or(Block.box(3.0D, 0.0D, 3.0D, 7.0D, 7.0D, 7.0D), Block.box(9.0D, 0.0D, 2.0D, 13.0D, 7.0D, 6.0D), Block.box(4.0D, 0.0D, 9.0D, 8.0D, 7.0D, 13.0D), Block.box(8.0D, 0.0D, 8.0D, 12.0D, 9.0D, 12.0D));
+    protected static final VoxelShape oneShape = Block.box(6.0D, 0.0D, 6.0D, 10.0D, 7.0D, 10.0D);
+    protected static final VoxelShape twoShape = Shapes.or(
+        Block.box(3.0D, 0.0D, 4.0D, 7.0D, 7.0D, 8.0D),
+        Block.box(9.0D, 0.0D, 5.0D, 13.0D, 7.0D, 9.0D)
+    );
+    protected static final VoxelShape threeShape = Shapes.or(
+        Block.box(3.0D, 0.0D, 3.0D, 7.0D, 7.0D, 7.0D),
+        Block.box(9.0D, 0.0D, 2.0D, 13.0D, 7.0D, 6.0D),
+        Block.box(4.0D, 0.0D, 9.0D, 8.0D, 7.0D, 13.0D)
+    );
+    protected static final VoxelShape fourShape = Shapes.or(
+        Block.box(3.0D, 0.0D, 3.0D, 7.0D, 7.0D, 7.0D),
+        Block.box(9.0D, 0.0D, 2.0D, 13.0D, 7.0D, 6.0D),
+        Block.box(4.0D, 0.0D, 9.0D, 8.0D, 7.0D, 13.0D),
+        Block.box(8.0D, 0.0D, 8.0D, 12.0D, 7.0D, 12.0D)
+    );
 
     public SpizeBlock() {
         super(

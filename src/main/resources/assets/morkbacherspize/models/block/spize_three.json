@@ -6,7 +6,7 @@
   "elements": [
     {
       "from": [3, 0, 3],
-      "to": [7, 6, 7],
+      "to": [7, 7, 7],
       "faces": { "down": { "texture": "#all", "cullface": "down" }, "up": { "texture": "#all" }, "north": { "texture": "#all" }, "south": { "texture": "#all" }, "west": { "texture": "#all" }, "east": { "texture": "#all" } }
     },
     {
