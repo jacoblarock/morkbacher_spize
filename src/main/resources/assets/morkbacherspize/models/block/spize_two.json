@@ -1,0 +1,18 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "all": "minecraft:block/glass"
+  },
+  "elements": [
+    {
+      "from": [3, 0, 4],
+      "to": [7, 6, 8],
+      "faces": { "down": { "texture": "#all", "cullface": "down" }, "up": { "texture": "#all" }, "north": { "texture": "#all" }, "south": { "texture": "#all" }, "west": { "texture": "#all" }, "east": { "texture": "#all" } }
+    },
+    {
+      "from": [9, 0, 5],
+      "to": [13, 7, 9],
+      "faces": { "down": { "texture": "#all", "cullface": "down" }, "up": { "texture": "#all" }, "north": { "texture": "#all" }, "south": { "texture": "#all" }, "west": { "texture": "#all" }, "east": { "texture": "#all" } }
+    }
+  ]
+}

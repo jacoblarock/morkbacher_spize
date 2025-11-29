@@ -1,0 +1,28 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "all": "minecraft:block/glass"
+  },
+  "elements": [
+    {
+      "from": [3, 0, 3],
+      "to": [7, 7, 7],
+      "faces": { "down": { "texture": "#all", "cullface": "down" }, "up": { "texture": "#all" }, "north": { "texture": "#all" }, "south": { "texture": "#all" }, "west": { "texture": "#all" }, "east": { "texture": "#all" } }
+    },
+    {
+      "from": [9, 0, 2],
+      "to": [13, 7, 6],
+      "faces": { "down": { "texture": "#all", "cullface": "down" }, "up": { "texture": "#all" }, "north": { "texture": "#all" }, "south": { "texture": "#all" }, "west": { "texture": "#all" }, "east": { "texture": "#all" } }
+    },
+    {
+      "from": [4, 0, 9],
+      "to": [8, 7, 13],
+      "faces": { "down": { "texture": "#all", "cullface": "down" }, "up": { "texture": "#all" }, "north": { "texture": "#all" }, "south": { "texture": "#all" }, "west": { "texture": "#all" }, "east": { "texture": "#all" } }
+    },
+    {
+      "from": [8, 0, 8],
+      "to": [12, 9, 12],
+      "faces": { "down": { "texture": "#all", "cullface": "down" }, "up": { "texture": "#all" }, "north": { "texture": "#all" }, "south": { "texture": "#all" }, "west": { "texture": "#all" }, "east": { "texture": "#all" } }
+    }
+  ]
+}

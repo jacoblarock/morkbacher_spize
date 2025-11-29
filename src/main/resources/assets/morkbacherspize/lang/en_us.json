@@ -1,7 +1,8 @@
 {
-  "itemGroup.morkbacherspize": "Example Mod Tab",
+  "itemGroup.morkbacherspize": "Morkbacher Spize",
   "block.morkbacherspize.example_block": "Example Block",
   "item.morkbacherspize.example_item": "Example Item",
+  "block.morkbacherspize.spize_block": "Spize",
 
   "morkbacherspize.configuration.title": "Morkbacher Spize Configs",
   "morkbacherspize.configuration.section.morkbacherspize.common.toml": "Morkbacher Spize Configs",

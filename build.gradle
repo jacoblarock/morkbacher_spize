@@ -19,6 +19,9 @@ group = mod_group_id
 
 repositories {
     // Add here additional repositories if required by some of the dependencies below.
+    maven { // JEI
+        url "https://maven.blamejared.com"
+    }
 }
 
 base {

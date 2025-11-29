@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "spize_block_count=1": { "model": "morkbacherspize:block/spize_one" },
+    "spize_block_count=2": { "model": "morkbacherspize:block/spize_two" },
+    "spize_block_count=3": { "model": "morkbacherspize:block/spize_three" },
+    "spize_block_count=4": { "model": "morkbacherspize:block/spize_four" }
+  }
+}
