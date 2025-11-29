@@ -1,6 +1,7 @@
 {
   "ambientocclusion": false,
   "textures": {
+    "particle": "morkbacherspize:block/spize",
     "all": "morkbacherspize:block/spize"
   },
   "elements": [

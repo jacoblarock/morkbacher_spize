@@ -1,6 +1,7 @@
 {
   "ambientocclusion": false,
   "textures": {
+    "particle": "morkbacherspize:block/spize",
     "all": "morkbacherspize:block/spize"
   },
   "elements": [
@@ -20,8 +21,8 @@
       "faces": { "down": { "texture": "#all", "cullface": "down" }, "up": { "texture": "#all" }, "north": { "texture": "#all" }, "south": { "texture": "#all" }, "west": { "texture": "#all" }, "east": { "texture": "#all" } }
     },
     {
-      "from": [8, 0, 8],
-      "to": [12, 7, 12],
+      "from": [9, 0, 8],
+      "to": [13, 7, 12],
       "faces": { "down": { "texture": "#all", "cullface": "down" }, "up": { "texture": "#all" }, "north": { "texture": "#all" }, "south": { "texture": "#all" }, "west": { "texture": "#all" }, "east": { "texture": "#all" } }
     }
   ]
