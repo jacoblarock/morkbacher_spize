@@ -45,7 +45,7 @@ public class SpizeBlock extends Block implements SimpleWaterloggedBlock {
         Block.box(3.0D, 0.0D, 3.0D, 7.0D, 7.0D, 7.0D),
         Block.box(9.0D, 0.0D, 2.0D, 13.0D, 7.0D, 6.0D),
         Block.box(4.0D, 0.0D, 9.0D, 8.0D, 7.0D, 13.0D),
-        Block.box(8.0D, 0.0D, 8.0D, 12.0D, 7.0D, 12.0D)
+        Block.box(9.0D, 0.0D, 8.0D, 13.0D, 7.0D, 12.0D)
     );
 
     public SpizeBlock() {
@@ -54,7 +54,7 @@ public class SpizeBlock extends Block implements SimpleWaterloggedBlock {
                 .strength(0.1F)
                 .sound(SoundType.GLASS)
                 .noOcclusion()
-                .lightLevel((state) -> state.getValue(count) * 2)
+                // .lightLevel((state) -> state.getValue(count) * 2)
         );
         this.registerDefaultState(this.stateDefinition.any().setValue(count, 1).setValue(waterlogged, false));
     }
